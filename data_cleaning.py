@@ -1,0 +1,4 @@
+import pandas as pd
+df = pd.read_csv("Student.txt", sep="\t")
+print("Students data:")
+print(df)
